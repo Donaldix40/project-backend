@@ -28,7 +28,7 @@ app.post("/generate-pdf", async (req, res) => {
 * {
   font-family: "Inter", sans-serif;
   line-height: 1.8;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.2px;
 }
 
 ul, ol {
