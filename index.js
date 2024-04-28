@@ -27,7 +27,7 @@ app.post("/generate-pdf", async (req, res) => {
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 * {
   font-family: "Inter", sans-serif;
-  line-height: 1.5;
+  line-height: 1.8;
   letter-spacing: 0.5px;
 }
 
