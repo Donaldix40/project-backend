@@ -25,20 +25,18 @@ app.post("/generate-pdf", async (req, res) => {
 <head>
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
-*{
+* {
   font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
 }
 
-ul {
-  list-style-type: disc;
+ul, ol {
+  list-style-position: inside;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-ol {
-  list-style-type: decimal;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
+
 li {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
